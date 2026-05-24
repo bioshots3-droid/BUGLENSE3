@@ -1,0 +1,35 @@
+{
+  "name": "BugLens — Insect Identifier",
+  "short_name": "BugLens",
+  "description": "AI-powered insect and arthropod species identification",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080f09",
+  "theme_color": "#0a1a0f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Identify Insect",
+      "short_name": "Identify",
+      "description": "Open camera to identify an insect",
+      "url": "/",
+      "icons": [{ "src": "icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}
